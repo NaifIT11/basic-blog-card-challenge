@@ -1,6 +1,5 @@
 import Image from "next/image"
-import main_image from "../assets/main.png"
-
+import main_image from "../assets/image.png"
 
 
 
@@ -17,7 +16,9 @@ export default function Blog(){
                 <div className="card__content__up__paragraph" role="paragraph">These languages are the backbone of every website, defining structure, content, and presentation.</div>
             </div>
             <div className="card__content__down">
-                <div className="card__content__down__image"></div>
+                <div className="card__content__down__image">
+                    
+                </div>
                 <div className="card__content__down__name" role="heading" aria-level={4}>Greg Hooper</div>
             </div>
         </div>
