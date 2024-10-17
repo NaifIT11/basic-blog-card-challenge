@@ -76,6 +76,11 @@ img{
     .card__content__up__heading{
       font-size: 1.875rem;
       font-weight: 900;
+      cursor: pointer;
+      &:hover{
+        color: var(--clr-yellow);
+        transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+      }
     }
     .card__content__up__paragraph{
       color: var(--clr-gray);
