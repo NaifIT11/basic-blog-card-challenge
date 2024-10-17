@@ -33,12 +33,12 @@ img{
   display: flex;
   flex-direction: column;
   border-radius: 1.125rem;
+  box-shadow: 10px 10px 0px #000;
 }
 
 .card__image{
   height: 30%;
   img{
-    object-fit: cover;
     border-radius: 1.125rem;
   }
 }
