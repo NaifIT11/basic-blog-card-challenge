@@ -27,18 +27,23 @@ img{
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  width: 50%;
+  width: 30%;
   padding: 1.25rem;
   background-color: var(--clr-white);
   display: flex;
   flex-direction: column;
   border-radius: 1.125rem;
   box-shadow: 10px 10px 0px #000;
+  @media(width <= 700px){
+    width: 80%;
+  }
 }
 
 .card__image{
   height: 30%;
   img{
+    object-fit: fill;
+    height: 200px;
     border-radius: 1.125rem;
   }
 }
