@@ -14,6 +14,14 @@
 }
 
 
+body{
+  background-color: var(--clr-yellow);
+}
 
 
-
+.card{
+  width: 50%;
+  padding: 1.25rem;
+  background-color: var(--clr-white);
+  display: flex;
+}
