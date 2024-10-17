@@ -52,6 +52,7 @@ img{
   display: flex;
   flex-direction: column;
   gap: 1.125rem;
+  margin-top: 1rem;
   .card__content__up{
     display: flex;
     flex-direction: column;
@@ -61,6 +62,18 @@ img{
       padding-block: 0.5rem;
       border-radius: 0.25rem;
       background-color: var(--clr-yellow);
+      font-weight: 600;
+      width: fit-content;
+    }
+    .card__content__up__date{
+      font-size: 1.125rem;
+    }
+    .card__content__up__heading{
+      font-size: 1.875rem;
+      font-weight: 900;
+    }
+    .card__content__up__paragraph{
+      color: var(--clr-gray);
     }
   }
 }
