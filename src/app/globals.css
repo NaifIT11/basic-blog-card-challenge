@@ -1,0 +1,19 @@
+
+* , *::after , *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --clr-yellow: #F4D04E;
+  --clr-black: #000;
+  --clr-white: #fff;
+  --clr-gray: #6B6B6B;
+}
+
+
+
+
+
